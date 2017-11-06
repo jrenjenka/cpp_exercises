@@ -1,0 +1,7 @@
+/* ex2.1
+** What are the differences between int, long, long long, and short? Between an unsigned and a signed type? Between a float and a double?
+*/
+
+1. int, long, long long and short are all represent integers, but the difference between them is number of bytes in memory that each of this type occupies in memory. Int and short hold the minimum size of 16 bits, long - 32 bits and long long - 64 bits. The number of bits for each type depends on the machine.
+2. Unsigned type guarantees that all bits will represent the value, e.g. 8-bit int can hold values from 0 to 255 inclusive. In the signed type however the first bit is used to represent the sign of the value, thus it can hold only values from -127 to 127 (or on modern machines: from -128 through 127).
+3. The difference between a float and a double is in the number of significant digits, float can hold 6 significant digits and double 10 significant digits.
