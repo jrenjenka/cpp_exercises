@@ -1,0 +1,7 @@
+/* ex2.2
+** To calculate a mortgage payment, what types would you use for the rate, principal, and payment? Explain why you selected each type.
+*/
+
+Rate: double - because it can be a floating-point number, for example 6.5%
+Principal: double - you can take a large amount of money from the bank
+Payment: double - your monthly payment can be a floating-point number, for example $1240.50
