@@ -1,0 +1,15 @@
+/* ex2.7
+** What values do these literals represent? What type does each have?
+*/
+
+(a) "Who goes with F\145rgus?\012"
+String literal, type is string
+
+(b) 3.14e1L
+Exponent floating-point literal, type is long double
+
+(c) 1024f
+single-precision floating-point literal, type is float
+
+(d) 3.14L
+double-precision floating-point literal, type is long double
