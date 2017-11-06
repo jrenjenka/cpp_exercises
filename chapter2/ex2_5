@@ -1,0 +1,22 @@
+/* ex2.5
+** Determine the type of each of the following literals. Explain
+the differences among the literals in each of the four examples:
+*/
+
+(a) 'a' - character literal, type is char
+    L'a' - wide character literal, type is wchar_t
+    "a" - string literal, type is string
+    L"a" - wide string literal, type is string
+(b) 10 - decimal integer literal, type is int
+    10u - unsigned decimal integer literal, type is unsigned int
+    10L - long decimal literal, type is long
+    10uL - unsigned decimal literal, type is unsigned long
+    012 - octal literal, type is int
+    0xC - hexadecimal literal, type is int
+(c) 3.14 - floating-point literal, type is double
+    3.14f - single-precision floating-point literal, type is float
+    3.14L - extended-precision floating-point literal, type is long double
+(d) 10 - decimal integer literal, type is int
+    10u - unsigned decimal integer literal, type is unsigned int
+    10. - double-precision floating-point literal, type is double
+    10e-2 - exponent floating-point literal, type is double
